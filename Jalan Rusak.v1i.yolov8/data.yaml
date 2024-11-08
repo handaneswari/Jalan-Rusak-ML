@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Poth-hole']
+
+roboflow:
+  workspace: laura-tsanaullailla
+  project: jalan-rusak-y05ab
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/laura-tsanaullailla/jalan-rusak-y05ab/dataset/1
